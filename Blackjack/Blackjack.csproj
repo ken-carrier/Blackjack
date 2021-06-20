@@ -1,0 +1,145 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\RulesCommand.cs" />
+    <Compile Remove="Commands\StartCommand.cs" />
+    <Compile Remove="MainWindow.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\best-online-casino-for-blackjack.jpg" />
+    <None Remove="Images\c1.png" />
+    <None Remove="Images\c10.png" />
+    <None Remove="Images\c2.png" />
+    <None Remove="Images\c3.png" />
+    <None Remove="Images\c4.png" />
+    <None Remove="Images\c5.png" />
+    <None Remove="Images\c6.png" />
+    <None Remove="Images\c7.png" />
+    <None Remove="Images\c8.png" />
+    <None Remove="Images\c9.png" />
+    <None Remove="Images\cj.png" />
+    <None Remove="Images\ck.png" />
+    <None Remove="Images\cq.png" />
+    <None Remove="Images\d1.png" />
+    <None Remove="Images\d10.png" />
+    <None Remove="Images\d2.png" />
+    <None Remove="Images\d3.png" />
+    <None Remove="Images\d4.png" />
+    <None Remove="Images\d5.png" />
+    <None Remove="Images\d6.png" />
+    <None Remove="Images\d7.png" />
+    <None Remove="Images\d8.png" />
+    <None Remove="Images\d9.png" />
+    <None Remove="Images\dealer.png" />
+    <None Remove="Images\dj.png" />
+    <None Remove="Images\dk.png" />
+    <None Remove="Images\dq.png" />
+    <None Remove="Images\h1.png" />
+    <None Remove="Images\h10.png" />
+    <None Remove="Images\h2.png" />
+    <None Remove="Images\h3.png" />
+    <None Remove="Images\h4.png" />
+    <None Remove="Images\h5.png" />
+    <None Remove="Images\h6.png" />
+    <None Remove="Images\h7.png" />
+    <None Remove="Images\h8.png" />
+    <None Remove="Images\h9.png" />
+    <None Remove="Images\hj.png" />
+    <None Remove="Images\hk.png" />
+    <None Remove="Images\hq.png" />
+    <None Remove="Images\player.png" />
+    <None Remove="Images\s1.png" />
+    <None Remove="Images\s10.png" />
+    <None Remove="Images\s2.png" />
+    <None Remove="Images\s3.png" />
+    <None Remove="Images\s4.png" />
+    <None Remove="Images\s5.png" />
+    <None Remove="Images\s6.png" />
+    <None Remove="Images\s7.png" />
+    <None Remove="Images\s8.png" />
+    <None Remove="Images\s9.png" />
+    <None Remove="Images\sj.png" />
+    <None Remove="Images\sk.png" />
+    <None Remove="Images\sq.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="MainWindow.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlackjackStats.Shared\BlackjackStats.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\best-online-casino-for-blackjack.jpg" />
+    <Resource Include="Images\c1.png" />
+    <Resource Include="Images\c10.png" />
+    <Resource Include="Images\c2.png" />
+    <Resource Include="Images\c3.png" />
+    <Resource Include="Images\c4.png" />
+    <Resource Include="Images\c5.png" />
+    <Resource Include="Images\c6.png" />
+    <Resource Include="Images\c7.png" />
+    <Resource Include="Images\c8.png" />
+    <Resource Include="Images\c9.png" />
+    <Resource Include="Images\cj.png" />
+    <Resource Include="Images\ck.png" />
+    <Resource Include="Images\dealer.png" />
+    <Resource Include="Images\cq.png" />
+    <Resource Include="Images\d1.png" />
+    <Resource Include="Images\d10.png" />
+    <Resource Include="Images\d2.png" />
+    <Resource Include="Images\d3.png" />
+    <Resource Include="Images\d4.png" />
+    <Resource Include="Images\d5.png" />
+    <Resource Include="Images\d6.png" />
+    <Resource Include="Images\d7.png" />
+    <Resource Include="Images\d8.png" />
+    <Resource Include="Images\d9.png" />
+    <Resource Include="Images\dj.png" />
+    <Resource Include="Images\dk.png" />
+    <Resource Include="Images\dq.png" />
+    <Resource Include="Images\h1.png" />
+    <Resource Include="Images\h10.png" />
+    <Resource Include="Images\h2.png" />
+    <Resource Include="Images\h3.png" />
+    <Resource Include="Images\h4.png" />
+    <Resource Include="Images\h5.png" />
+    <Resource Include="Images\h6.png" />
+    <Resource Include="Images\h7.png" />
+    <Resource Include="Images\h8.png" />
+    <Resource Include="Images\h9.png" />
+    <Resource Include="Images\hj.png" />
+    <Resource Include="Images\hk.png" />
+    <Resource Include="Images\hq.png" />
+    <Resource Include="Images\player.png" />
+    <Resource Include="Images\s1.png" />
+    <Resource Include="Images\s10.png" />
+    <Resource Include="Images\s2.png" />
+    <Resource Include="Images\s3.png" />
+    <Resource Include="Images\s4.png" />
+    <Resource Include="Images\s5.png" />
+    <Resource Include="Images\s6.png" />
+    <Resource Include="Images\s7.png" />
+    <Resource Include="Images\s8.png" />
+    <Resource Include="Images\s9.png" />
+    <Resource Include="Images\sj.png" />
+    <Resource Include="Images\sk.png" />
+    <Resource Include="Images\sq.png" />
+  </ItemGroup>
+
+</Project>
